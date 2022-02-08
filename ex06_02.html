@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-store">
+<meta http-equiv="Expires" content="-1">
+<title>ex06_02.html</title>
+</head>
+<body>
+<h2>[ファイル・アップロード]</h2>
+	<form action="ex06_02.php" method="post" enctype="multipart/form-data">
+		<div>
+			<input type="hidden" name="MAX_FILE_SIZE" value="71680" />
+			アップロードするファイルを指定してください<br />
+			<br />
+			<input type="file" name="uploadfile" size="60" /><br />
+			<br />
+			コメント：<input type="text" name="comment" value="" size="30" /><br />
+			<br />
+			<input type="submit" value="実行" />
+		</div>
+	</form>
+</body>
+</html>
